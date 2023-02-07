@@ -15,12 +15,13 @@ console.log(Math.floor(2.9));
 // Math.max()
 // Devuelve el mayor de cero o más números.
 console.log(Math.max(-1, -4, -45));
-//devuelve el numero mas alto que esta dentro del conjunto de numeros dados
+//devuelve el numero mas alto de numeros dados
 
 
 // Math.min()
 // Devuelve el más pequeño de cero o más números.
 console.log(Math.min(-1, -4, -45));
+//devuelve el menor de los numeros dados
 
 
 // Math.pow(x, y)
@@ -30,7 +31,7 @@ console.log(Math.pow(3, 3));
 
 // Math.random()
 // Devuelve un número pseudo-aleatorio entre 0 y 1.
-
+console.log(Math.trunc()(Math.random()*3));
 //devuelve un numero aleatorio entre 0 y 1
 
 
@@ -53,4 +54,6 @@ console.log(Math.trunc(42.84));
 // 5.68545.toFixed(x)
 // Devuelve la cantidad de numeros decimal segun x
 
+let num3 = 345.123456
+console.log(num3.toFixed(2));
 
