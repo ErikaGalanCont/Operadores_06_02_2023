@@ -2,46 +2,55 @@ let num1 = 50, num2 = 32;
 let resultado;
 let myStyle = "background: #0c690c;color: #fff;font-family: sans-serif;padding: 5px;border: 2px solid #0c6963;border-radius: 5px;";
 
-//Operador de adicion 'Suma'
-resultado = num1 + num2;
-console.log(`%c${num1} + ${num2} = ${resultado}`, myStyle);
+// Math.ceil(x)
+// Devuelve el entero más pequeño mayor o igual que un número.
+console.log(Math.ceil(3.01));
+//Redondea hacia arriba
 
-//Operador de subtracion 'Resta'
-resultado = num1 - num2;
-console.log(`%c${num1} - ${num2} = ${resultado}`, myStyle);
+// Math.floor(x)
+// Devuelve el mayor entero menor que o igual a un número.
+console.log(Math.floor(2.9));
+//Redondea el numero hacia abajo
 
-//Operador de division
-resultado = num1 / num2;
-console.log(`%c${num1} - ${num2} = ${resultado}`, myStyle);
-
-//Operador de exponenciacion
-resultado = num1 ** num2;
-console.log(`%c${num1} - ${num2} = ${resultado}`, myStyle);
-
-//Operador de multiplicacion
-resultado = num1 + num2;
-console.log(`%c${num1} - ${num2} = ${resultado}`, myStyle);
-
-//Operador de residuo
-resultado = num1 % num2;
-console.log(`%c${num1} - ${num2} = ${resultado}`, myStyle);
-
-//Operador Unario Negativo
-num1 = -50;
-resultado = -num1;
-console.log(`%c${num1} - ${num2} = ${resultado}`, myStyle);
-
-//Operador Unirio Positivo
-num2 = 32;
-resultado = -num2;
-console.log(`%c${num1} - ${num2} = ${resultado}`, myStyle);
+// Math.max()
+// Devuelve el mayor de cero o más números.
+console.log(Math.max(-1, -4, -45));
+//devuelve el numero mas alto que esta dentro del conjunto de numeros dados
 
 
+// Math.min()
+// Devuelve el más pequeño de cero o más números.
+console.log(Math.min(-1, -4, -45));
 
 
+// Math.pow(x, y)
+// Las devoluciones de base a la potencia de exponente, que es, baseexponent.
+console.log(Math.pow(3, 3));
 
 
+// Math.random()
+// Devuelve un número pseudo-aleatorio entre 0 y 1.
+
+//devuelve un numero aleatorio entre 0 y 1
 
 
+// Math.round(x)
+// Devuelve el valor de un número redondeado al número entero más cercano.
+console.log(Math.round(6.5));
+//Redondea hacia el entero que tiene mas cerca
+
+// Math.sqrt(x)
+// Devuelve la raíz cuadrada positiva de un número.
+console.log(Math.sqrt(16));
+//devuelve la raiz cuadrada
+
+
+// Math.trunc(x)
+// Devuelve la parte entera del número x, la eliminación de los dígitos fraccionarios.
+console.log(Math.trunc(42.84));
+//Quita el decimal
+
+// 5.68545.toFixed(x)
+// Devuelve la cantidad de numeros decimal segun x
 
 
