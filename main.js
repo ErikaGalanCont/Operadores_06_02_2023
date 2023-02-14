@@ -1,19 +1,9 @@
-let num1 = 50, num2 = 32;
-let resultado;
-let myStyle = "background: #0c690c;color: #fff;font-family: sans-serif;padding: 5px;border: 2px solid #0c6963;border-radius: 5px;";
+let a = confirm("Variable A\n\t\tSelecciona Aceptar si deseas el boleano True\n\t\tSelecciona Cancelar si deseas el booleano False")
+let b = confirm("Variable B\n\t\tSelecciona Aceptar si deseas el boleano True\n\t\tSelecciona Cancelar si deseas el booleano False")
 
-console.log(`%c${num1} == ${num2} ${num1==num2}`, myStyle);
-
-console.log(`%c${num1} != ${num2} ${num1!=num2}`, myStyle);
-
-console.log(`%c${num1} === ${num2} ${num1===num2}`, myStyle);
-
-console.log(`%c${num1} !== ${num2} ${num1!==num2}`, myStyle);
-
-console.log(`%c${num1} > ${num2} ${num1>num2}`, myStyle);
-
-console.log(`%c${num1} >= ${num2} ${num1>=num2}`, myStyle);
-
-console.log(`%c${num1} < ${num2} ${num1<num2}`, myStyle);
-
-console.log(`%c${num1} <= ${num2} ${num1<=num2}`, myStyle);
+let cuerpo = document.querySelector("#myAND");
+cuerpo.insertAdjacentHTML("beforeend", `<tr>
+                                            <td>${a}</td>
+                                            <td>${b}</td>
+                                            <td>${a && b}</td>
+                                        </tr>`);
